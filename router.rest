@@ -1,0 +1,12 @@
+GET http://localhost:3001/vehicles/
+
+###
+
+POST http://localhost:3001/start
+Content-Type: application/application/json
+
+{
+    "vnumber": "TN111111",
+    "vtype": "Car",
+    "vTime": "10:00 PM"
+}
